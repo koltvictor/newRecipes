@@ -3,14 +3,14 @@ import Category from "./components/Category";
 import Search from "./components/Search";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { GiKnifeFork } from "react-icons/gi";
+import { GiLindenLeaf } from "react-icons/gi";
 
 function App() {
   return (
     <div className="App">
       <Nav>
-        <GiKnifeFork />
-        <Logo to={"/"}>Recipes</Logo>
+        <GiLindenLeaf />
+        <Logo to={"/"}> chef's recipes </Logo>
       </Nav>
       <Search />
       <Category />

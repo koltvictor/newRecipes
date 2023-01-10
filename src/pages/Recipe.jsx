@@ -33,8 +33,8 @@ export default function Recipe() {
           Ingredients
         </Button>
         {active === 'instructions' &&  (
-        <div>
-          <h4 dangerouslySetInnerHTML={{__html: details.summary}} />
+        <div style={{paddingTop: "2rem"}}>
+          <h4 dangerouslySetInnerHTML={{__html: details.summary}} /><br/><br/>
           <h4 dangerouslySetInnerHTML={{__html: details.instructions}} />
         </div>
         )}
