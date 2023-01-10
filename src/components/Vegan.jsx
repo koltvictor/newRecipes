@@ -35,9 +35,7 @@ export default function Vegan() {
             <h3>Vegan Picks</h3>
 
             <Splide options={{
-                perPage: 3,
-                arrows: false,
-                pagination: false,
+                perPage: 4,
                 drag: 'free',
                 gap: '5rem'
             }}>

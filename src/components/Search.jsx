@@ -34,7 +34,7 @@ const FormStyle = styled.form`
         border: none;
         background: white;
         font-size: 1.5rem;
-        color: white;
+        color: black;
         padding: 1rem 3rem;
         border-radius: 1rem;
         outline: none;
